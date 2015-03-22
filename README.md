@@ -22,20 +22,18 @@ This script will:
 ## CodeBook  - Summarized Human Activity Recognition Data
 
 
-|Column	                               | Description
-|:-------------------------------------	|:----------------------------------------------------------------|
-|subject_id                            | Int <br>
-unique identifier for the test subject <br>
-                                        1..30|
+|Column	                               | Data Type|Range|Description|
+|:------------------------------------ |--------- |-----|:----------------------------------------------------------------|
+|subject_id                            | Int|1..30|unique identifier for the test subject |
 
-|
-|activity                                |Char length=18
+
+|activity                                |Char
                                         WALKING
                                         WALKING_UPSTAIRS
                                         WALKING_DOWNSTAIRS
                                         SITTING
                                         STANDING
-                                        LAYING|
+                                        LAYING|1-18 characters| activity description
 
 |activity_id                             |Int
                                         identifier for the activity
