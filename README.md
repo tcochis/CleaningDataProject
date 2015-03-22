@@ -24,10 +24,9 @@ This script will:
 
 |Column	                               | Description
 |:-------------------------------------	|:------|
-|subject_id                            | Int
-unique identifier for the test subject
+|subject_id                            | Int <br>
+unique identifier for the test subject <br>
                                         1..30|
-|:-------------------------------------	|:------
 
 |
 |activity                                |Char length=18
