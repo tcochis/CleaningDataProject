@@ -9,20 +9,23 @@ date: "Saturday, March 21, 2015"
 The script named run_analysis.R can be used to create the summarized data file form the raw data 
 located at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip . 
 This script will:
-* read the data files 
-* combine the test and training data sets in to one data set
-* include only the observation variables containing mean and std deviation values
-* add decscriptive column names to the data set
-* add descriptive activity names to the data set
-* group the data by subject and activity
-* calculate the mean values for each of the measurement variables
+
+
+-  read the data files 
+- combine the test and training data sets in to one data set
+- include only the observation variables containing mean and std deviation values
+- add descriptive column names to the data set
+- add descriptive activity names to the data set
+- group the data by subject and activity
+- calculate the mean values for each of the measurement variables
 
 ## CodeBook  - Summarized Human Activity Recognition Data
 
 
 
-subject_id                              Int    
-                                        unique identifier for the test subject
+|subject_id                            | Int
+|:-------------------------------------	|------    
+                                       | unique identifier for the test subject
                                         1..30
 
 activity                                Char length=18
