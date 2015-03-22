@@ -6,7 +6,7 @@ date: "Saturday, March 21, 2015"
 
 ## Processing Descrption
 
-The script named run_analysis.R can be used to create the summarized data file form the raw data 
+The script named run_analysis.R can be used to create the summarized data file from the raw data 
 located at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip . 
 This script will:
 
