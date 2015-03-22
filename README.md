@@ -25,33 +25,12 @@ This script will:
 | Column      | Data Type | Range | Description                            |
 |-------------|-----------|-------|----------------------------------------|
 | subject_id  | Int       | 1..30 | unique identifier for the test subject |
-| activity    | Char      | 1-18  | First line<br />Second line            |
-| activity_id | Int       | 1..6  | s                                      |
-
-|activity                                |Char
-                                        WALKING
-                                        WALKING_UPSTAIRS
-                                        WALKING_DOWNSTAIRS
-                                        SITTING
-                                        STANDING
-                                        LAYING|1-18 characters| activity description
-
-|activity_id                             |Int
-                                        identifier for the activity
-                                        1..6|
-                
-|tBodyAcc-mean()-X -mean                 |Numeric
-                                        mean of tBodyAcc-mean()-X value grouped by activity and subject|
-
-|tBodyAcc-mean()-Y -mean                 |Numeric
-                                        mean of tBodyAcc-mean() -Y value grouped by activity and subject
-
-|tBodyAcc-mean()-Z -mean                 |Numeric
-                                        mean of tBodyAcc-mean() -Z value grouped by activity and subject       
-
-|tBodyAcc-std()-X -mean                  |Numeric
-                                        mean of tBodyAcc-std()-X value grouped by activity and subject   
-
+| activity    | Char      | 1-18  | WALKING<br />WALKING_UPSTAIRS<br />WALKING_DOWNSTAIRS<br />SITTING<br />STANDING<br />LAYING          |
+| activity_id | Int       | 1..6  | identifier for the activity            |
+|tBodyAcc-mean()-X -mean                 |Numeric||mean of tBodyAcc-mean()-X value grouped by activity and subject|
+|tBodyAcc-mean()-Y -mean                 |Numeric||mean of tBodyAcc-mean() -Y value grouped by activity and subject
+|tBodyAcc-mean()-Z -mean                 |Numeric||mean of tBodyAcc-mean() -Z value grouped by activity and subject       
+|tBodyAcc-std()-X -mean                  |Numeric||mean of tBodyAcc-std()-X value grouped by activity and subject   
 |tBodyAcc-mean()-X -mean                 |Numeric
                                         mean of tBodyAcc-mean()-X value grouped by activity and subject
 
