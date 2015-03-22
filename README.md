@@ -21,6 +21,9 @@ This script will:
 
 ## CodeBook  - Summarized Human Activity Recognition Data
 
+Note: Please refer to the README.txt file located in the raw data folder for a detailed 
+      description of observation variables listed below.
+
 
 | Column                  | Data Type | Range | Description                                        |
 |-------------------------|-----------|-------|----------------------------------------------------|
